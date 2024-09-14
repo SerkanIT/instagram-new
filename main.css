@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    border: 1px solid gray;
+    width: 400px;
+    margin: 100px auto 0;
+    transform: translateY(-80px);
+    height: 500px;
+}
+
+input,
+.btn {
+    display: block;
+    margin: 10px auto;
+    transform: translateY(15px);
+    margin-top: 15px;
+}
+
+.btn {
+
+    background-color: rgb(40, 121, 235);
+    border: none;
+    color: white;
+    padding: 7px 24px;
+    border-radius: 5px;
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    opacity: 0.5;
+    font-weight: 700;
+}
+
+input {
+    padding: 10px 5px;
+    outline: none;
+    border: 1px solid gray;
+    width: 70%;
+}
+
+
+
+.wrapper {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+form>img {
+    margin: 0 auto;
+    justify-content: center;
+    transform: translate(45px, 30px);
+}
+
+.text1 {
+    margin-top: 75px;
+    border-color: gray;
+    border-radius: 5px !important;
+
+}
+
+.text2 {
+    border-radius: 5px !important;
+    margin-top: -15px;
+    transform: translateY(25px);
+}
+
+.line {
+    background-color: gray;
+    width: 90px;
+    height: 0.6px;
+}
+
+.orr {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.or {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.facebook {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.facebook-login {
+    color: rgb(40, 121, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.forgotten {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 12px;
+}
+
+.forgotten:hover {
+    transition: 0.4s;
+
+}
+
+.form-2 {
+    width: 400px;
+    height: 70px;
+    transform: translate(221px, -185px);
+    border: 1px solid gray;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+
+
+}
+
+.register {
+    color: rgb(40, 121, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form-2>p {
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+
+.app {
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+
+.app-foto {
+    margin-top: 20px;
+    cursor: pointer;
+    width: 300px;
+}
+
+
+.logo-phone {
+    width: 100%;
+    height: 581.15px;
+    align-items: center;
+}
+
+
+.btn:active {
+    background-color: blue;
+    color: white;
+}
+
+.facebook>img {
+    width: 30px;
+    height: 30px;
+}  
+
+#alertBox{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-size: 14px;
+}
